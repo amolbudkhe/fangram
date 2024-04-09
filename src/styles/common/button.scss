@@ -1,0 +1,13 @@
+@use "colors.scss";
+
+.button {
+  padding: 4px 12px;
+  border: none;
+  border-radius: 300px;
+  font-weight: 500;
+  cursor: pointer;
+  &.primary_btn {
+    background-color: $color_primary;
+    color: $color_white;
+  }
+}
