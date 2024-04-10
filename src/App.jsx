@@ -1,13 +1,8 @@
-import Homepage from "./components/homepage/Homepage";
-
+import Homepage from "./components/homepage/homepage";
 import "./styles/style.scss";
 
 function App() {
-  return (
-    <>
-      <Homepage />
-    </>
-  );
+  return <Homepage />;
 }
 
 export default App;

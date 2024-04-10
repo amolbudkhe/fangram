@@ -1,0 +1,33 @@
+.homepage_main_container {
+  padding: 70px 26px 0 26px;
+  .carousel_area {
+    margin-bottom: 50px;
+  }
+  .banner_bottom_section {
+    .celebrity_message,
+    .section_message_title {
+      margin-bottom: 15px;
+    }
+    .celebrity_message {
+      font-size: 12px;
+      font-weight: 400;
+
+      > h2 {
+        padding: 5px 0;
+        font-family: "Satisfy", cursive;
+        font-weight: 100;
+      }
+    }
+    .gradient_txt {
+      background-image: linear-gradient(60deg, #fdc15d, #d1297a, #ab2da7);
+      background-clip: text;
+      color: transparent;
+    }
+    .section_message_title {
+      font-size: 20px;
+      line-height: 30px;
+      padding-right: 40px;
+      font-weight: 900;
+    }
+  }
+}
